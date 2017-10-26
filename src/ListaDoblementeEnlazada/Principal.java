@@ -154,10 +154,10 @@ public Principal() {
 		getContentPane().add(txt_nombre);
 		txt_nombre.setColumns(10);
 		
-		JLabel lblGenero = new JLabel("Genero");
-		lblGenero.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		lblGenero.setBounds(12, 174, 46, 14);
-		getContentPane().add(lblGenero);
+		JLabel lbl_Genero = new JLabel("Genero");
+		lbl_Genero.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		lbl_Genero.setBounds(12, 174, 46, 14);
+		getContentPane().add(lbl_Genero);
 		
 		txt_genero = new JTextField();
 		txt_genero.setBounds(70, 168, 128, 20);
